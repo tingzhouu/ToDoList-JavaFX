@@ -10,3 +10,4 @@ This is due today	Test	02-12-2018
 This is due tomorrow	asdadad	03-12-2018
 2017 task	should appear in between 2016 and 2018 items	07-12-2017
 Dec 19	dec	19-12-2018
+This is also due today	asd	02-12-2018
