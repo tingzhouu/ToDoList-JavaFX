@@ -18,16 +18,16 @@
             </MenuBar>
             <ToolBar>
                 <HBox>
-                    <Button onAction="#showNewItemDialog">
+                    <Button onAction="#showNewItemDialog" text="Add...">
                         <tooltip>
                             <Tooltip text="Add a New Todo Item!"/>
                         </tooltip>
 
-                        <graphic>
-                            <ImageView>
-                                <Image url="@/toolbarButtonGraphics/general/New24.gif"/>
-                            </ImageView>
-                        </graphic>
+                        <!--<graphic>-->
+                            <!--<ImageView>-->
+                                <!--<Image url="@/toolbarButtonGraphics/general/New24.gif"/>-->
+                            <!--</ImageView>-->
+                        <!--</graphic>-->
                     </Button>
 
                     <ToggleButton fx:id="filterToggleButton" text="Today's items" onAction="#handleFilterButton">
